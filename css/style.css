@@ -48,11 +48,6 @@ img {
 
 /* main
 ------------------------------------------------------*/
-.top {
-  height: 595px;
-  background-color: #effaff;
-}
-
 .support01 {
   height: 545px;
   background-color: #fff;
@@ -150,8 +145,8 @@ p.support-box-addition {
   margin-bottom: 20px;
 }
 
-p.small {
-  font-size: 0.75rem;
+.small p {
+  font-size: 0.5rem;
 }
 
 .support07 {
@@ -212,4 +207,183 @@ footer {
   width: 45%;
   float: right;
   height: 20px;
+}
+
+/* レスポンシブウェブデザイン
+------------------------------------------------------*/
+@media (max-width: 600px) {
+  /* header */
+  .page-header {
+   height: 32px; 
+  }
+
+  .logo {
+    display: flex;
+    color: #fff;
+    align-items: center;
+  }
+  
+  .logo-sm {
+    font-size: 0.75rem;
+  }
+  
+  .logo-bg {
+    font-size: 1rem;
+  }
+
+  /* main */ 
+  .support01 {
+    height: 240px;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .support02 {
+    height: 240px;
+    background-color: #effaff;
+    text-align: center;
+  }
+
+  .support-message {
+    margin-top: 15px;
+  }
+
+  .support-box p {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 0.5rem;
+  }
+    
+    .wrap {
+      
+      justify-content: center;
+      margin-top: 10px;
+    }
+    
+    .wrap-column {
+      display: flex;
+      margin-top: 10px;
+      align-items: center;
+    }
+    
+    .support-box {
+      width: 45%;
+      margin: 0 10px;
+    }
+    
+    .support-box img {
+      width: 80%;
+    }
+
+    .support03 {
+      height: 240px;
+      text-align: center;
+    }
+    
+    .support-box h3 {
+      color: #02aeef;
+      font-size: 0.5rem;
+      text-align: left;
+    }
+
+    .support04 {
+      height: 240px;;
+      background-color: #effaff;
+      text-align: center;
+    }
+    
+    .support05 {
+      height: 360px;
+      text-align: center;
+    }
+    
+    .support-box-clear {
+      width: 100%;
+    }
+
+    .support-box-clear h3 {
+      color: #02aeef;
+      margin-top: 10px;
+      font-size: 0.675rem;
+    }
+    
+    .support-box-clear p {
+      font-size: 0.375rem;
+      margin: 15px;
+      text-align: left;
+    }
+
+    .support-box-clear img {
+      width: 90%;
+    }
+    
+    .support-box-addition p {
+      font-size: 0.375rem;
+      margin: 15px;
+      text-align: left;
+    }
+
+    .support06 {
+      height: 709px;
+      background-color: #effaff;
+    }
+    
+    .support06 img {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .small p {
+      float: left;
+      font-size: 0.5rem;
+      text-align: left;
+    }
+
+
+
+
+
+
+
+
+    .security {
+      display: flex;
+      
+      
+    }
+    
+    .security01 {
+      margin-left: 20px;
+      width: 80%;;
+    }
+
+    .security01 img {
+      width: 30%;
+        }
+    
+    .security02 {
+      width: 80%;
+      font-size: 0.5rem;
+    }
+
+    footer {
+      height: 30px;
+      background-color: #02aeef;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .footer-left {
+      width: 100%;
+      font-size: 0.5rem;
+    }
+    
+    .footer-right {
+      width: 100%;
+      float: right;
+      height: 10px;
+    }
 }
